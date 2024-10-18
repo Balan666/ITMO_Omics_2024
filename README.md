@@ -1,2 +1,6 @@
 # MtEve
-Microbial-Omics_Bioinf-ITMO_Fall 2024
+Microbial Omics. Bioinf-ITMO. Fall 2024
+
+Many researchers support this origin story for the mitochondrion in part because it has retained its own mitochondrial genome (mtDNA), a short circular chromosome that replicates independently of nuclear DNA. Most mtDNA comprises just 37 genes, all of which are critical to mitochondrial functions. Only 13 of these genes encode proteins – the rest are translated into noncoding RNAs. Furthermore, mtDNA has practically uniform length across species — throughout the animal kingdom, the mitochondrial genome is approximately 16,000 nucleotides long (in humans, the exact number of nucleotides is typically 16,569). The mitochondrion even has its own genetic code, as four of the 64 RNA codons translate into a different amino acid in the mitochondrion than they do in the nucleus.
+
+The mitochondrial genome is short, uniform length across different species make it a perfect candidate for inexpensive comparative studies (Frederick Sanger sequenced human mtDNA all the way back in 1981). However, the mitochondrion has one additional interesting property: in mammals, sperm mitochondria are usually destroyed during fertilization. This means that you almost certainly inherited all your mitochondrial DNA from your mother, who inherited hers from her mother, and so on, back through the centuries to the most recent common female ancestor of all modern humans, who is commonly called mitochondrial Eve.
