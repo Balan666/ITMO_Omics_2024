@@ -47,7 +47,7 @@ Let's use this model while building the tree:
 ```
 iqtree2 -m TIM2+I+G4 -s human_aligned_trimmed.fasta -B 1000 -alrt 1000 -redo --prefix human_iqtree
 ```
-
+![The resulting tree](https://github.com/Balan666/MtEve/blob/main/pics/human_figtree.png?raw=true)
 ## Adding other Homo species
 ```
 cat Human/* ./Denisova/* Neanderthal/* Pan/* > all_hum_genomes.fasta
@@ -73,3 +73,10 @@ Weight:             0.6729
 ```
 iqtree2 -m TrN+I+G4 -s aligned_all_hum_genomes_trimmed.fasta -B 1000 -alrt 1000 --prefix all_human_iqtree
 ```
+A few files were acquired and the tree was visualized in figtree
+![The tree of all the sequences drawn by FigTree](https://github.com/Balan666/MtEve/blob/main/pics/all-human_figtree.png?raw=true "A pretty ugly tree")
+
+It's pretty hard to see the branch length though, and the figtree interface is pretty restricted, so iTOL was used to make it a bit prettier:
+![The tree of all the sequences drawn by iTOL](https://github.com/Balan666/MtEve/blob/main/pics/all-human_iTol.png?raw=true "A beautiful tree")
+
+Tools like IQ-TREE allow you to estimate divergence times based on either fixed rates (where you specify a rate of mutation/changes per year) or relaxed clock models, which account for rate variability among lineages. When you run analyses using these settings, the software provides estimated ages for nodes based on the accumulated molecular data.
