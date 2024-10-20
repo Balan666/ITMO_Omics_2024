@@ -48,7 +48,7 @@ Let's use this model while building the tree:
 iqtree2 -m TIM2+I+G4 -s human_aligned_trimmed.fasta -B 1000 -alrt 1000 -redo --prefix human_iqtree
 ```
 ![The resulting tree](https://github.com/Balan666/MtEve/blob/main/pics/human_figtree.png?raw=true)
-## Adding other Homo species
+## Adding other sequences
 ```
 cat Human/* ./Denisova/* Neanderthal/* Pan/* > all_hum_genomes.fasta
 
