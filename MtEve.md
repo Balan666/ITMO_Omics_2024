@@ -71,12 +71,27 @@ Weight:             0.6729
 ---------------------------
 ```
 ```
-iqtree2 -m TrN+I+G4 -s aligned_all_hum_genomes_trimmed.fasta -B 1000 -alrt 1000 --prefix all_human_iqtree
+iqtree -s aligned_all_hum_genomes_trimmed.fasta -m TrN+I+G4 --date-root -6 --date-tip 0 -B 1000 -alrt 1000 -redo --prefix human_pan_iqtree
 ```
 A few files were acquired and the tree was visualized in figtree
 ![The tree of all the sequences drawn by FigTree](https://github.com/Balan666/MtEve/blob/main/pics/all-human_figtree.png?raw=true "A pretty ugly tree")
 
 It's pretty hard to see the branch length though, and the figtree interface is pretty restricted, so iTOL was used to make it a bit prettier:
-![The tree of all the sequences drawn by iTOL](https://github.com/Balan666/MtEve/blob/main/pics/all-human_iTol.png?raw=true "A beautiful tree")
+![The tree of all the sequences drawn by iTOL](https://github.com/user-attachments/assets/458604c6-49e3-4f55-9fa7-fbe10e05b8dd "A beautiful tree")
 
-Tools like IQ-TREE allow you to estimate divergence times based on either fixed rates (where you specify a rate of mutation/changes per year) or relaxed clock models, which account for rate variability among lineages. When you run analyses using these settings, the software provides estimated ages for nodes based on the accumulated molecular data.
+The main groups here are Pan genome (brown color),  Denisovians (green), Neanderthals (yellow) and human (white). Bootstrap is displayed with blue circles. Branch lengths are displayed with numbers. The tree was root-calibrated, the `--date-root -6` was used to consider that pan genus and first hominidae differenciated approximately 6 million years ago. 
+The lengths of the branches were obtained and displayed in the age-like manner. Now we need to count the actual ages of the relatives. We can do this with this formula:
+
+$\text{Age} = \frac{\text{Branch Length}}{\text{mutation rate}}$
+
+mutation rate varies from 0.015 to 0.025, so we can count approximal ages for mtEve and Neanderthal-Denisovan ancestor
+
+If mutation rate = 0.015:
+
+- $\text{MtEve age} = \frac{0.0257089}{0.015} = 0.171393 \approx \text{171 thousand years}$
+- $\text{D-N age} = \frac{0.0130147}{0.015} = 0.867647 \approx \text{867 thousand years}$ 
+
+If mutation rate = 0.025:
+
+- $\text{MtEve age} = \frac{0.0257089}{0.025} = 0.1028356 \approx \text{103 thousand years}$
+- $\text{D-N age} = \frac{0.0130147}{0.025} = 0.520588 \approx \text{520 thousand years}$ 
