@@ -95,3 +95,18 @@ If mutation rate = 0.025:
 
 - $\text{MtEve age} = \frac{0.0257089}{0.025} = 0.1028356 \approx \text{103 thousand years}$
 - $\text{D-N age} = \frac{0.0130147}{0.025} = 0.520588 \approx \text{520 thousand years}$ 
+
+Human colonisation of Earth is a complex process spanning thousands of years. 
+
+### Human colonisation of Earth
+
+Homo sapiens emerged in Africa about 200,000 to 300,000 years ago. Early humans were mainly hunter-gatherers, dependent on foraging for food.
+The Out of Africa Theory suggests that early humans began migrating out of Africa around 60,000 to 80,000 years ago. They spread across Eurasia, eventually reaching different parts of the globe.
+Early humans migrated along coastlines and rivers in search of resources. As they moved, they adapted to different environments, leading to genetic and cultural diversification.
+From Africa, humans spread to the Middle East and then to Europe and Asia. Genetic evidence suggests that they interbred with local populations such as Neanderthals and Denisovans.
+After populating Eurasia, humans migrated to regions such as Australia (around 65,000 years ago) and later to the Americas (estimated between 15,000 and 20,000 years ago, probably via the Bering Land Bridge).
+
+The concept of Mitochondrial Eve supports the "Out of Africa" theory, which posits that modern humans migrated from Africa to other parts of the world and replaced other hominin species.
+It has become a popular symbol in discussions of human ancestry, highlighting shared heritage and the genetic connections among all humans.
+Mitochondrial Eve is often misunderstood as the only human ancestor or the first human. In reality, many other humans were likely living at the time, but their mtDNA did not survive.
+mtDNA analysis does not encompass the entire genetic history of humanity, as it only reflects maternal lineages. Other studies consider nuclear DNA for a more comprehensive analysis of human ancestry and diversity.
